@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,800,900|Playfair+Display:400,700i|Poppins:300,400&display=swap');
+/* 
+  Default styles
+*/
+:root {
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  color: #000000
+}
