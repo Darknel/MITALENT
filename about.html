@@ -1,24 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/about.css">
-  <title>About Page</title>
-</head>
+    <title>About Page</title>
 
-<body>
-  <header class="navigation">
-    <nav class="nav">
-      <button class="burger-btn"></button>
-      <a href="clients.html">Clients</a>
-      <a href="news.html">News</a>
-    </nav>
-    <h1 class="brand"><a href="index.html">mitalent</a></h1>
-    <button class="search-btn"></button>
-  </header>
-  <!-- header.navigation -->
-</body>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
 
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="blue-gradient-bg"></div>
+          <!-- First column -->
+          <nav class="header-nav">
+            <button class="header-nav__btn burger-btn"></button>
+            <ul class="header-nav--mobile">
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">Home</a>
+              </li>
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">Profile</a>
+              </li>
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">About</a>
+              </li>
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">Blog</a>
+              </li>
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">Clients</a>
+              </li>
+              <li class="header-nav__item--mobile">
+                <a class="header-nav__link--mobile" href="#">News</a>
+              </li>
+            </ul>
+            <a class="header-nav__link" href="clients.html">Clients</a>
+            <a class="header-nav__link" href="news.html">News</a>
+          </nav>
+          <div class="socials">
+            <a class="socials__link" href="#"
+              ><img src="img/facebook.svg" alt="Facebook icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/instagram.svg" alt="Instagram icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/youtube.svg" alt="Youtube icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/twitter.svg" alt="Twitter icon link"
+            /></a>
+          </div>
+          <div class="header-contact">
+            <button class="header-contact__btn header-contact__btn--gradient">
+              contact us
+            </button>
+            <button
+              class="header-contact__btn header-contact__btn--profile"
+            ></button>
+          </div>
+          <!-- Second column -->
+          <h1 class="header-brand">
+            <a class="header-brand__link" href="index.html">mitalent</a>
+          </h1>
+          <div class="header-content">
+            <span class="header-content__char">d</span>
+            <strong class="header-content__title"
+              >eveloping the best talent in the comedy <br />
+              & entertainment business.
+            </strong>
+            <p class="header-content__text">
+              Our client list is drawn from the competitive world of stand-up
+              comedy and our boutique, focused company works closely with them
+              to develop talents learned on the circuit into the skills needed
+              for a long-lasting career performing and writing for television,
+              radio and film.
+            </p>
+            <p class="header-content__text">
+              Our client list is drawn from the competitive world of stand-up
+              comedy and our boutique, focused company works closely with them
+              to develop talents. Learned on the circuit into the skills needed
+              for a long-lasting career performing and writing for television,
+              radio and film.
+            </p>
+          </div>
+          <div class="header-card">
+            <p class="header-card__text">
+              <span class="header-card__text--bold">Motivation </span> Is The
+              First Step To
+              <span class="header-card__text--bold"> Success</span>
+            </p>
+          </div>
+          <!-- Third column -->
+          <div class="header-search">
+            <button class="search-btn"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <div class="features">
+      <div class="container">
+        <nav class="features-tabs">
+          <a class="features-tabs__item" href="#">Actor</a>
+          <a class="features-tabs__item" href="#">Musician</a>
+          <a class="features-tabs__item" href="#">Comedian</a>
+          <a class="features-tabs__item" href="#">Model</a>
+        </nav>
+        <div class="features-slider">
+          <div class="features-slider__item">
+            <a href="#"></a>
+            <img class="features-slider__img" src="img/slider-1.jpg" alt="" />
+            <p class="features-slider__name">Ivan Newman</p>
+            <p class="features-slider__prof">singer</p>
+          </div>
+          <div class="features-slider__item">
+            <a href="#"></a>
+            <img class="features-slider__img" src="img/slider-2.jpg" alt="" />
+            <p class="features-slider__name">Ivan Newman</p>
+            <p class="features-slider__prof">singer</p>
+          </div>
+          <div class="features-slider__item">
+            <a href="#"></a>
+            <img class="features-slider__img" src="img/slider-3.jpg" alt="" />
+            <p class="features-slider__name">Ivan Newman</p>
+            <p class="features-slider__prof">singer</p>
+          </div>
+          <div class="features-slider__item">
+            <a href="#"></a>
+            <img class="features-slider__img" src="img/slider-4.jpg" alt="" />
+            <p class="features-slider__name">Ivan Newman</p>
+            <p class="features-slider__prof">singer</p>
+          </div>
+          <div class="features-slider__item">
+            <a href="#"></a>
+            <img class="features-slider__img" src="img/slider-3.jpg" alt="" />
+            <p class="features-slider__name">Ivan Newman</p>
+            <p class="features-slider__prof">singer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- features -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <h2 class="footer-logo__title">mitalent</h2>
+          <button class="footer-logo__btn">
+            sign up our newsletter
+          </button>
+        </div>
+        <div class="footer-copyright">
+          <p class="footer-copyright__text">
+            © 2018 MI Talent. Designed by Tranmautritam for Mass Impressions.
+          </p>
+          <div class="socials">
+            <a class="socials__link" href="#"
+              ><img src="img/facebook.svg" alt="Facebook icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/instagram.svg" alt="Instagram icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/youtube.svg" alt="Youtube icon link"
+            /></a>
+            <a class="socials__link" href="#"
+              ><img src="img/twitter.svg" alt="Twitter icon link"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
 </html>
